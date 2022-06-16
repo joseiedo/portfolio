@@ -1,0 +1,19 @@
+.sobre-bg {
+  background: var(--cor-2);
+  padding: 64px 0;
+}
+
+.sobre p {
+  max-width: 76ch;
+}
+
+.sobre h1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sobre img {
+  height: 45px;
+  text-align: end;
+}

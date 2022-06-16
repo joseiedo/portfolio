@@ -1,0 +1,63 @@
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/* botão */
+button.botao {
+  border: none;
+}
+.botao {
+  background: var(--cor-p);
+  padding: 16px;
+}
+
+.botao:hover {
+  cursor: pointer;
+}
+
+.botao.secundario {
+  background: none;
+  border: 1px solid var(--cor-p);
+}
+
+/* efeito na foto */
+.div_pop img {
+  border-radius: 50%;
+  animation: in 0.5s forwards;
+}
+.div_pop img:hover {
+  animation: out 0.5s forwards;
+}
+@keyframes out {
+  0% {
+    box-shadow: -4px 4px 0px #4bb1b1;
+  }
+  50% {
+    box-shadow: -4px 4px 0px #4bb1b1, -8px 8px 0px #297475;
+  }
+  100% {
+    box-shadow: -4px 4px 0px #4bb1b1, -8px 8px 0px #297475,
+      -12px 12px 0px #134d4e;
+    transform: translate(12px, -12px);
+  }
+}
+
+@keyframes in {
+  0% {
+    box-shadow: -4px 4px 0px #4bb1b1, -8px 8px 0px #297475,
+      -12px 12px 0px #134d4e;
+    transform: translate(12px, -12px);
+  }
+  33% {
+    box-shadow: -4px 4px 0px #4bb1b1, -8px 8px 0px #297475;
+  }
+  66% {
+    box-shadow: -4px 4px 0px #4bb1b1;
+  }
+  100% {
+    box-shadow: -4px 4px 0px #4bb1b1;
+  }
+}

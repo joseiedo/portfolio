@@ -1,0 +1,50 @@
+.header-bg {
+  background: var(--cor-0);
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 32px;
+}
+
+.header nav a:hover {
+  color: var(--cor-p);
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 800px) {
+  .header {
+    height: 60px;
+  }
+  .header nav ul li {
+    display: none;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 520px) {
+  .header ul a {
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 360px) {
+  .header {
+    padding-top: 20px;
+  }
+}

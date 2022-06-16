@@ -1,0 +1,44 @@
+#projetos {
+  padding: 32px 0px;
+  background: var(--cor-0);
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+#projetos .container > h1 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+.projeto-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 16px;
+}
+
+.projeto-item p {
+  max-width: 48ch;
+}
+
+.botoes-projeto {
+  display: flex;
+  gap: 16px;
+}
+
+@media (max-width: 1000px) {
+  .projeto-item {
+    grid-template-columns: 1fr;
+  }
+
+  .projeto-item p {
+    margin: 8px 0px;
+  }
+
+  .projeto-item img {
+    object-fit: cover;
+    grid-row: 1;
+  }
+}

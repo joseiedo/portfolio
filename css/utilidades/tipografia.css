@@ -1,0 +1,48 @@
+.font-xl {
+  font-family: "Raleway", sans-serif;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.font-g {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.font-m-b,
+.font-m {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.font-m {
+  font-weight: 400;
+}
+
+.font-p,
+.font-p-b,
+.font-p-m {
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+.font-p-b {
+  font-weight: bold;
+}
+
+.font-p-m {
+  font-weight: 500;
+}
+
+@media (max-width: 800px) {
+  .font-xl {
+    font-size: 22px;
+  }
+
+  .font-m {
+    font-size: 16px;
+  }
+}

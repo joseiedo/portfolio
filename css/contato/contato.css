@@ -1,0 +1,22 @@
+.contato-bg {
+  background: var(--cor-2);
+}
+
+.contato {
+  display: flex;
+  gap: 16px;
+}
+
+.contato-conteudo {
+  box-sizing: border-box;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contato form button.botao {
+  width: fit-content;
+}

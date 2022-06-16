@@ -1,0 +1,26 @@
+ul,
+span,
+body,
+a,
+h1,
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+input {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
