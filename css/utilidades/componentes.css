@@ -1,7 +1,7 @@
 .container {
   max-width: 1200px;
-  box-sizing: border-box;
   padding: 0 20px;
+  box-sizing: border-box;
   margin: 0 auto;
 }
 
@@ -23,6 +23,12 @@ button.botao {
   color: var(--cor-p);
   background: none;
   border: 1px solid var(--cor-p);
+}
+
+@media (max-width: 320px) {
+  .botao {
+    padding: 8px 16px;
+  }
 }
 
 /* efeito na foto */

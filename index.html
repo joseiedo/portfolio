@@ -130,7 +130,7 @@
       <ul>
         <li class="formacao-item">
           <div class="logo-instituicao">
-            <img src="./assets/img/alura.jpg" alt="">
+            <img src="./assets/img/formacoes/alura.png" alt="">
           </div>
           <div>
             <p class="font-m-b cor-6">Formação front-end - ONE</p>
@@ -138,7 +138,7 @@
           </div>
         </li>
         <li class="formacao-item">
-          <div class="logo-instituicao"><img src="./assets/img/uninter.jpg" alt=""></div>
+          <div class="logo-instituicao"><img src="./assets/img/formacoes/uninter.png" alt=""></div>
           <div>
             <p class="font-m-b cor-6">Análise & Desenvolvimento
               de Sistemas</p>
@@ -147,7 +147,7 @@
         </li>
         <li class="formacao-item">
           <div class="logo-instituicao">
-            <img src="./assets/img/alura.jpg" alt="">
+            <img src="./assets/img/formacoes/alura.png" alt="">
           </div>
           <div>
             <p class="font-m-b cor-6">Iniciante em Programação - ONE</p>
@@ -209,22 +209,26 @@
         </p>
         <form action="" class="formulario">
           <div>
-            <input type="text" class="font-p" required>
-            <span class="font-p cor-8">Nome</span>
+            <input id="nomeMensagem" type="text" class="font-p " required maxlength="50" data-tipo="nome">
+            <label class="font-p cor-8">Nome</label>
+            <span class="input-mensagem-erro font-p"></span>
           </div>
           <div>
-            <input type="email" class="font-p" required>
-            <span class="font-p cor-8">E-mail</span>
+            <input type="email" class="font-p" data-tipo="email" required>
+            <label class="font-p cor-8">E-mail</label>
+            <span class="input-mensagem-erro font-p"></span>
           </div>
           <div>
-            <input type="text" class="font-p" required>
-            <span class="font-p cor-8">Assunto</span>
+            <input type="text" class="font-p" required maxlength="50" data-tipo="assunto">
+            <label class="font-p cor-8">Assunto</label>
+            <span class="input-mensagem-erro font-p"></span>
           </div>
           <div class="textarea">
-            <textarea type="text" class="font-p" required></textarea>
-            <span class="font-p cor-8">Mensagem</span>
+            <textarea type="text" class="font-p" required maxlength="300"></textarea>
+            <label class="font-p cor-8">Mensagem</label>
+            <span class="input-mensagem-erro font-p"></span>
           </div>
-          <button type="submit" class="botao font-p cor-6">Enviar mensagem</button>
+          <button type="submit" class="botao botao-form font-p cor-6 ">Enviar mensagem</button>
         </form>
       </div>
     </div>
@@ -235,6 +239,7 @@
       <span class="font-p-m">2022</span>
     </div>
   </footer>
+  <script src="./js/app.js" type="module"></script>
 </body>
 
 </html>

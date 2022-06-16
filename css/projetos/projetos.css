@@ -19,6 +19,10 @@
   gap: 16px;
 }
 
+.projeto-item img {
+  object-fit: cover;
+}
+
 .projeto-item p {
   max-width: 48ch;
 }
@@ -31,6 +35,8 @@
 @media (max-width: 1000px) {
   .projeto-item {
     grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .projeto-item p {

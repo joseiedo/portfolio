@@ -9,6 +9,7 @@
   --cor-6: #eaeaea;
   --cor-7: #ffffff;
   --cor-8: #a2a2a2;
+  --cor-erro: rgb(231, 99, 99);
 }
 
 .cor-p {
@@ -40,4 +41,8 @@
 
 .cor-8 {
   color: var(--cor-8);
+}
+
+.cor-erro {
+  color: rgb(231, 99, 99);
 }

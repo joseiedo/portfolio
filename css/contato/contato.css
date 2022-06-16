@@ -24,7 +24,7 @@
   max-width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 32px;
+  gap: 20px;
 }
 
 .contato form button.botao {

@@ -46,8 +46,13 @@
 }
 
 @media (max-width: 480px) {
-  .skills {
+  .skills__hobbies {
+    padding: 16px;
+    gap: 16px;
   }
+}
+
+@media (max-width: 480px) {
   .skills ul {
     grid-template-columns: 1fr 1fr;
     width: 100%;

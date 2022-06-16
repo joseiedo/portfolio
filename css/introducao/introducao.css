@@ -93,6 +93,39 @@
   }
 }
 
+@media (max-width: 520px) {
+  .introducao-conteudo ul {
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .introducao-conteudo ul li a {
+    width: 100%;
+  }
+
+  .introducao-conteudo p {
+    margin: 16px 0;
+  }
+  .introducao-conteudo ul li img {
+    height: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .introducao-conteudo ul li {
+    text-align: left;
+    box-sizing: border-box;
+    background: #141414;
+    padding: 10px;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 340px) {
+  .introducao-conteudo ul li img {
+    display: none;
+  }
+}
 @media (max-width: 400px) {
   .introducao .div_pop img,
   .div_pop {

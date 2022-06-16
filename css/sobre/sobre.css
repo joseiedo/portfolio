@@ -17,3 +17,10 @@
   height: 45px;
   text-align: end;
 }
+
+@media (max-width: 480px) {
+  .sobre-bg {
+    background: var(--cor-2);
+    padding: 16px 0;
+  }
+}
