@@ -13,16 +13,27 @@ button.botao {
   color: #000;
   background: var(--cor-p);
   padding: 16px 30px;
+  transition: all 0.3s ease;
 }
 
 .botao:hover {
   cursor: pointer;
+  background: #126b6d;
+  color: white;
+  font-weight: 500;
 }
 
 .botao.secundario {
   color: var(--cor-p);
-  background: none;
+  background: var(--cor-0);
   border: 1px solid var(--cor-p);
+  transition: all 0.3s ease;
+}
+
+.botao.secundario:hover {
+  color: #126b6d;
+  font-weight: 500;
+  background: #cfe0e0;
 }
 
 @media (max-width: 320px) {

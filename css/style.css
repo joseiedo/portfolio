@@ -2,6 +2,7 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
 @import "./utilidades/componentes.css";
+@import "./utilidades/animacoes.css";
 
 /* global */
 @import "./global/global.css";
@@ -26,3 +27,5 @@
 /* contato */
 @import "./contato/contato.css";
 @import "./contato/formulario.css";
+
+/* plugins */

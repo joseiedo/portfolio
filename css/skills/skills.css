@@ -24,6 +24,12 @@
   padding: 16px;
   display: grid;
   align-items: flex-end;
+  transition: 300ms;
+}
+
+.skills ul li:hover {
+  transform: scale(1.03);
+  box-shadow: -8px 8px 0px var(--cor-p);
 }
 
 .skills ul li p {

@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
 </head>
+
 
 <body>
   <header class="header-bg">
@@ -34,23 +35,23 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-xl cor-6">Olá, meu nome é <strong>José</strong> e construo páginas web.</h1>
-        <p class="font-m cor-6">Desenvolvedor front-end e UX/UI Designer.</p>
+        <h1 class="font-xl cor-6" data-anime="200">Olá, meu nome é <strong>José</strong> e construo páginas web.</h1>
+        <p class="font-m cor-6" data-anime="400">Desenvolvedor front-end e UX/UI Designer.</p>
         <ul>
-          <li><a href="https://github.com/joseiedo" class="font-p-m cor-6">Github <img src="./assets/icons/arrow.svg" alt=""></a></li>
-          <li><a href="https://www.linkedin.com/in/joseiedo/" class="font-p-m cor-6">LinkedIn <img src="./assets/icons/arrow.svg" alt=""></a></li>
-          <li><a href="https://www.instagram.com/jsedut/" class="font-p-m cor-6">Instagram <img src="./assets/icons/arrow.svg" alt=""></a></li>
-          <li><a href="https://www.dropbox.com/s/vxe7gyoyihdw3g0/Curriculum_Jose_iedo.pdf?dl=0" target="_blank" class="font-p-m cor-6">Currículo <img src="./assets/icons/arrow.svg" alt=""></a></li>
+          <li data-anime="300"><a href="https://github.com/joseiedo" class="font-p-m cor-6">Github <img src="./assets/icons/arrow.svg" alt=""></a></li>
+          <li data-anime="500"><a href="https://www.linkedin.com/in/joseiedo/" class="font-p-m cor-6">LinkedIn <img src="./assets/icons/arrow.svg" alt=""></a></li>
+          <li data-anime="700"><a href="https://www.instagram.com/jsedut/" class="font-p-m cor-6">Instagram <img src="./assets/icons/arrow.svg" alt=""></a></li>
+          <li data-anime="900"><a href="https://www.dropbox.com/s/vxe7gyoyihdw3g0/Curriculum_Jose_iedo.pdf?dl=0" target="_blank" class="font-p-m cor-6">Currículo <img src="./assets/icons/arrow.svg" alt=""></a></li>
         </ul>
       </div>
-      <div class="div_pop">
+      <div class="div_pop fadeInRight" data-anime="800">
         <img src="./assets/foto.png" alt="">
       </div>
 
     </div>
   </main>
   <section id="sobre" class="sobre-bg">
-    <div class="sobre container">
+    <div class="sobre container fadeInRight" data-anime="700">
       <h1 class="font-g cor-6  text_pop"><span>Sobre mim</span> <img src="./assets/img/gif.gif" alt=""></h1>
       <p class="font-p cor-6">Moro atualmente em São Paulo. Tenho 18 anos e estou no 1º periódo em Análise e desenvolvimento de sistemas na UNINTER.
         <br>
@@ -239,6 +240,9 @@
       <span class="font-p-m">2022</span>
     </div>
   </footer>
+  <script src="./js/plugins/simple-anime.js">
+  </script>
+  <script src="./js/script.js"></script>
   <script src="./js/app.js" type="module"></script>
 </body>
 

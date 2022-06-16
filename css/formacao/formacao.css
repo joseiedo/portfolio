@@ -26,6 +26,11 @@
   height: 290px;
   background: rgb(223, 223, 223);
   margin-bottom: 8px;
+  transition: 300ms;
+}
+
+.logo-instituicao:hover {
+  transform: scale(1.03);
 }
 
 .logo-instituicao img {

@@ -7,3 +7,5 @@ inputs.forEach((input) => {
     valida(evento.target);
   });
 });
+
+new SimpleAnime();
