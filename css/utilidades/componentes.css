@@ -10,8 +10,9 @@ button.botao {
   border: none;
 }
 .botao {
+  color: #000;
   background: var(--cor-p);
-  padding: 16px;
+  padding: 16px 30px;
 }
 
 .botao:hover {
@@ -19,6 +20,7 @@ button.botao {
 }
 
 .botao.secundario {
+  color: var(--cor-p);
   background: none;
   border: 1px solid var(--cor-p);
 }

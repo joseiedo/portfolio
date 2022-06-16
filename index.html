@@ -199,18 +199,42 @@
     </div>
   </section>
   <section class="contato-bg">
-    <div class="contato container">
+    <div class="contato">
       <img src="./assets/img/contato.jpg" alt="">
       <div class="contato-conteudo">
         <h1 class="font-g cor-6">Contato</h1>
-        <p class="font-p-m cor-6">Quer entrar em contato comigo?</p>
-        <p class="font-p-m cor-6">Preencha o formulário abaixo e entrarei em contato o mais rápido possível.</p>
-        <form action="">
+        <p class="font-p-m cor-6">Quer entrar em contato comigo?
+          <br>
+          Preencha o formulário abaixo e entrarei em contato o mais rápido possível.
+        </p>
+        <form action="" class="formulario">
+          <div>
+            <input type="text" class="font-p" required>
+            <span class="font-p cor-8">Nome</span>
+          </div>
+          <div>
+            <input type="email" class="font-p" required>
+            <span class="font-p cor-8">E-mail</span>
+          </div>
+          <div>
+            <input type="text" class="font-p" required>
+            <span class="font-p cor-8">Assunto</span>
+          </div>
+          <div class="textarea">
+            <textarea type="text" class="font-p" required></textarea>
+            <span class="font-p cor-8">Mensagem</span>
+          </div>
           <button type="submit" class="botao font-p cor-6">Enviar mensagem</button>
         </form>
       </div>
     </div>
   </section>
+  <footer class="footer-bg">
+    <div class="cor-6 container">
+      <h1 class="font-p-m">Desenvolvido por José Iêdo</h1>
+      <span class="font-p-m">2022</span>
+    </div>
+  </footer>
 </body>
 
 </html>

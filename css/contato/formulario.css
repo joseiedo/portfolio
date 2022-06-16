@@ -1,0 +1,53 @@
+.formulario div {
+  position: relative;
+  width: 100%;
+}
+
+.formulario div textarea,
+.formulario div input {
+  resize: vertical;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.formulario div input {
+  height: 56px;
+  padding: 10px 10px;
+  padding-bottom: 0px;
+}
+
+.formulario div span {
+  position: absolute;
+  left: 10px;
+  top: 35%;
+  transition: 300ms;
+}
+
+.formulario div.textarea span {
+  top: 15px;
+}
+
+.formulario div textarea {
+  height: 150px;
+  padding: 16px 10px;
+}
+
+.formulario div input:focus ~ span,
+.formulario div textarea:focus ~ span,
+.formulario div textarea:valid ~ span,
+.formulario div input:valid ~ span {
+  font-size: 12px;
+  color: var(--cor-p);
+  top: 5px;
+}
+
+.formulario div input:focus,
+.formulario div textarea:focus {
+  border-bottom: 2px solid var(--cor-p);
+}
+
+@media (max-width: 1200px) {
+}

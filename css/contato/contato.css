@@ -1,22 +1,47 @@
 .contato-bg {
+  padding-top: 130px;
+  padding-bottom: 65px;
   background: var(--cor-2);
 }
 
 .contato {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
 .contato-conteudo {
   box-sizing: border-box;
 }
+.contato-conteudo h1 {
+  margin-bottom: 8px;
+}
+.contato-conteudo p {
+  margin-bottom: 32px;
+}
 
 .contato form {
-  display: flex;
-  flex-direction: column;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
   gap: 32px;
 }
 
 .contato form button.botao {
   width: fit-content;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 800px) {
+  .contato-bg {
+    padding-top: 32px;
+  }
+
+  .contato {
+    padding: 0px 20px;
+    display: block;
+  }
+  .contato > img {
+    display: none;
+  }
 }

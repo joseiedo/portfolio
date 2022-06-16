@@ -49,8 +49,9 @@
   .skills {
   }
   .skills ul {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     width: 100%;
+    word-wrap: break-word;
   }
 
   .skills ul li {

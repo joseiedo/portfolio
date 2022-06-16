@@ -1,0 +1,8 @@
+.footer-bg {
+  padding: 32px 0;
+  background: var(--cor-0);
+}
+
+.footer-bg div {
+  text-align: center;
+}

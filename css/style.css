@@ -6,6 +6,7 @@
 /* global */
 @import "./global/global.css";
 @import "./global/header.css";
+@import "./global/footer.css";
 
 /* introducao */
 @import "./introducao/introducao.css";
