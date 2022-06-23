@@ -27,8 +27,8 @@
           <li><a href="#hobbies">Hobbies</a></li>
           <li><a href="#formacao">Formação</a></li>
           <li><a href="#projetos">Projetos</a></li>
-          <a href="mailto:joseiedo@outlook.com" class="font-p-b email cor-6">joseiedoduarte@outlook.com</a>
         </ul>
+        <a href="mailto:joseiedo@outlook.com" class="font-p-b email cor-6">joseiedoduarte@outlook.com</a>
       </nav>
     </div>
   </header>
@@ -52,7 +52,7 @@
   </main>
   <section id="sobre" class="sobre-bg">
     <div class="sobre container fadeInRight" data-anime="700">
-      <h1 class="font-g cor-6  text_pop"><span>Sobre mim</span> <img src="./assets/img/gif.gif" alt=""></h1>
+      <h1 class="font-g cor-6  text_pop"><span>Sobre mim</span></h1>
       <p class="font-p cor-6">Moro atualmente em São Paulo. Tenho 18 anos e estou no 1º periódo em Análise e desenvolvimento de sistemas na UNINTER.
         <br>
         <br>
@@ -163,7 +163,7 @@
       <h1 class="font-g cor-6">Experiência profissional</h1>
       <div class="projetos">
         <div class="projeto-item">
-          <img src="./assets/img/projetos/evolution.jpg" alt="">
+          <img src="./assets/img/projetos/evolution.jpg" alt="" width="752" height="406">
           <div class="projeto-conteudo">
             <h2 class="font-m-b cor-6">Evolution</h2>
             <p class="font-p-m cor-6">Site de uma empresa fictícia, feito para praticar o conhecimento em HTML & CSS.</p>
@@ -183,10 +183,10 @@
               <a href="https://joseiedo.github.io/jogo-da-forca-alura/" class="botao font-p cor-6">Ver demo</a>
             </div>
           </div>
-          <img src="./assets/img/projetos/jogoforca.png" alt="">
+          <img src="./assets/img/projetos/jogoforca.png" alt="" width="752" height="428">
         </div>
         <div class="projeto-item">
-          <img src="./assets/img/projetos/encriptador.jpg" alt="">
+          <img src="./assets/img/projetos/encriptador.jpg" alt="" width="752" height="406">
           <div class="projeto-conteudo">
             <h2 class="font-m-b cor-6">Decodificador de texto</h2>
             <p class="font-p-m cor-6">Challenge Oracle Alura</p>
@@ -201,7 +201,7 @@
   </section>
   <section class="contato-bg">
     <div class="contato">
-      <img src="./assets/img/contato.jpg" alt="">
+      <img src="./assets/img/contato.jpg" alt="" width="464" height="594">
       <div class="contato-conteudo">
         <h1 class="font-g cor-6">Contato</h1>
         <p class="font-p-m cor-6">Quer entrar em contato comigo?
@@ -210,23 +210,23 @@
         </p>
         <form action="" class="formulario">
           <div>
-            <input id="nomeMensagem" type="text" class="font-p " required maxlength="50" data-tipo="nome">
-            <label class="font-p cor-8">Nome</label>
+            <input id="nomeMensagem" type="text" class="font-p " required maxlength="50" data-tipo="nome" aria-labelledby="nome">
+            <label class="font-p cor-0" id="nome">Nome</label>
             <span class="input-mensagem-erro font-p"></span>
           </div>
           <div>
-            <input type="email" class="font-p" data-tipo="email" required>
-            <label class="font-p cor-8">E-mail</label>
+            <input type="email" class="font-p" data-tipo="email" aria-labelledby="email" required>
+            <label class="font-p cor-0" id="email">E-mail</label>
             <span class="input-mensagem-erro font-p"></span>
           </div>
           <div>
-            <input type="text" class="font-p" required maxlength="50" data-tipo="assunto">
-            <label class="font-p cor-8">Assunto</label>
+            <input type="text" class="font-p" required maxlength="50" data-tipo="assunto" aria-labelledby="assunto">
+            <label class="font-p cor-0" id="assunto">Assunto</label>
             <span class="input-mensagem-erro font-p"></span>
           </div>
           <div class="textarea">
-            <textarea type="text" class="font-p" required maxlength="300"></textarea>
-            <label class="font-p cor-8">Mensagem</label>
+            <textarea type="text" class="font-p" required maxlength="300" aria-labelledby="mensagem"></textarea>
+            <label class="font-p cor-0" id="mensagem">Mensagem</label>
             <span class="input-mensagem-erro font-p"></span>
           </div>
           <button type="submit" class="botao botao-form font-p cor-6 ">Enviar mensagem</button>
